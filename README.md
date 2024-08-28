@@ -1,0 +1,1 @@
+A week by week, follow up with the lecturer during both online and physical classes. Hoping to learn alot and add to my GitHub contributions day by day. So far worked on Object Oriented Programming in PHP and very ready for more.
