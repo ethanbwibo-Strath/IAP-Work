@@ -16,4 +16,13 @@ print $_SERVER["PHP_SELF"];
 print "<br>";
 print "<br>";
 print basename($_SERVER["PHP_SELF"]);
+print "<br>";
+print "<br>";
+
+if(file_exists("index.php")AND is_readable("index.php")){
+  print "yes";
+}else{
+  print "no";
+}
+
 ?>
