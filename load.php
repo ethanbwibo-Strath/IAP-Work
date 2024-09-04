@@ -10,7 +10,7 @@ foreach($arr as $color){
 }
 
 print dirname(__FILE__);
-print "<br>":
+print "<br>";
 print "<br>";
 print $_SERVER["PHP_SELF"];
 ?>
