@@ -13,4 +13,7 @@ print dirname(__FILE__);
 print "<br>";
 print "<br>";
 print $_SERVER["PHP_SELF"];
+print "<br>";
+print "<br>";
+print basename($_SERVER["PHP_SELF"]);
 ?>
