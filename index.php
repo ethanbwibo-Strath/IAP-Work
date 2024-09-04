@@ -9,10 +9,10 @@
     <h1>This is my first page</h1>
 
     
-    <?php 
+    <!-- php 
     require_once "load.php";
     print $obj-> user_age("Alex", 2004); 
-    ?>
+     -->
 
     <?php
         require "load.php";
