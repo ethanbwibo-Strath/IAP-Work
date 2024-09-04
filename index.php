@@ -14,5 +14,11 @@
     print $obj-> user_age("Alex", 2004); 
     ?>
 
+    <?php
+        require "load.php";
+        $ObjLayouts->__heading();
+        $ObjMenus->main_menu(); 
+    ?>
+
 </body>
 </html

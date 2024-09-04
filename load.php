@@ -1,28 +1,34 @@
 <?php
 
-require_once "user_details.php";
-$obj = new user_details();
+require_once "Layout/layout.php";
+$ObjLayouts = new layout();
 
-$arr = ["black", "white", "green", "red"];
+require_once "Menu/menus.php";
+$ObjMenus = new menus(); 
 
-foreach($arr as $color){
-  print $color . "<br>";
-}
+// require_once "user_details.php";
+// $obj = new user_details();
 
-print dirname(__FILE__);
-print "<br>";
-print "<br>";
-print $_SERVER["PHP_SELF"];
-print "<br>";
-print "<br>";
-print basename($_SERVER["PHP_SELF"]);
-print "<br>";
-print "<br>";
+// $arr = ["black", "white", "green", "red"];
 
-if(file_exists("index.php")AND is_readable("index.php")){
-  print "yes";
-}else{
-  print "no";
-}
+// foreach($arr as $color){
+//   print $color . "<br>";
+// }
+
+// print dirname(__FILE__);
+// print "<br>";
+// print "<br>";
+// print $_SERVER["PHP_SELF"];
+// print "<br>";
+// print "<br>";
+// print basename($_SERVER["PHP_SELF"]);
+// print "<br>";
+// print "<br>";
+
+// if(file_exists("index.php")AND is_readable("index.php")){
+//   print "yes";
+// }else{
+//   print "no";
+// }
 
 ?>
