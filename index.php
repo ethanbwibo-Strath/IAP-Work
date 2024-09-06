@@ -18,6 +18,8 @@
         require "load.php";
         $ObjLayouts->__heading();
         $ObjMenus->main_menu(); 
+        $ObjHeadings->main_banner();
+        $ObjLayouts->__footer()
     ?>
 
 </body>
