@@ -1,5 +1,22 @@
 <?php
+function classAutoLoad($classname){
+    $directories = ["Contents", "Layouts", "Menus"];
 
+    foreach($directories as $dir){
+        $filename = dirname(__FILE__) . DIRECTORY_SEPARATOR . $dir. DIRECTORY_SEPARATOR . $classname. ".php";
+
+        if(file_exists($filename) AND is_readable($filename)){
+            require_once$filename;
+        }
+    }
+
+
+}
+
+spl_autoload_register("classAutoLoad");
+
+
+//Instances of classes
 require_once "Layout/layout.php";
 $ObjLayouts = new layout();
 
