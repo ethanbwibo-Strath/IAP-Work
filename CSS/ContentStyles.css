@@ -1,0 +1,24 @@
+.banner{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: azure;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content{
+    float: left;
+    width: 66.66%;
+    padding: 20px;
+}
+
+.side_bar{
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+}

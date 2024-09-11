@@ -9,17 +9,11 @@
 
 
     
-    <!-- php 
-    require_once "load.php";
-    print $obj-> user_age("Alex", 2004); 
-     -->
-
     <?php
         require "load.php";
         $ObjLayouts->__heading();
         $ObjMenus->main_menu(); 
         $ObjHeadings->main_banner();
-        $ObjContents->main_content();
         $ObjContents->about_content();
         $ObjContents->side_bar();
         $ObjLayouts->__footer()
