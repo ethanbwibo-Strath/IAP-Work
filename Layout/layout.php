@@ -18,7 +18,7 @@ class layout{
     public function __footer(){
     ?>
 
-    <div>
+    <div class="footer">
         Copyright &copy; ICS <?php print date("Y"); ?>
     </div>
 </body>
