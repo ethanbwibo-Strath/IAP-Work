@@ -19,6 +19,8 @@
         $ObjLayouts->__heading();
         $ObjMenus->main_menu(); 
         $ObjHeadings->main_banner();
+        $ObjContents->main_content();
+        $ObjContents->side_bar();
         $ObjLayouts->__footer()
     ?>
 
