@@ -33,6 +33,7 @@ require "Includes/constants.php";
 require "Includes/dbConnection.php";
 
 $conn = new dbConnection(DB_NAME, HOSTNAME, DBPORT, USERNAME, DBPASS, DBNAME);
+
 // require_once "user_details.php";
 // $obj = new user_details();
 
