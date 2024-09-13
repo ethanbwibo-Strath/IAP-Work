@@ -5,7 +5,7 @@ class menus{
 
         <div class="topnav">
             <a href="./">Home</a>
-            <a href="">About</a>
+            <a href="about.php">About</a>
             <a href="">Contact</a>
             <a href="">Help</a>
             <?php $this->main_right_menu(); ?>

@@ -26,6 +26,9 @@ $ObjMenus = new menus();
 require_once"Contents/heading.php";
 $ObjHeadings = new headings();
 
+require_once "Contents/contents.php";
+$ObjContents = new contents();
+
 // require_once "user_details.php";
 // $obj = new user_details();
 
