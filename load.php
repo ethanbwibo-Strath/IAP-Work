@@ -29,6 +29,10 @@ $ObjHeadings = new headings();
 require_once "Contents/contents.php";
 $ObjContents = new contents();
 
+require "includes/constants.php";
+require "includes/dbConnection.php";
+
+$conn = new dbConnection($db_type, $db_host, $db_port, $db_user, $db_pass, $db_name);
 // require_once "user_details.php";
 // $obj = new user_details();
 
