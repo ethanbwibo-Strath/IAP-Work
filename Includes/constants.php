@@ -6,6 +6,7 @@ define('HOSTNAME', 'localhost');
 define('USERNAME', 'root');
 define('DBPORT', '3307');
 define('DBPASS', '@Eset254');
-define('DBNAME','api');
+define('DBNAME','iap_project');
 
+?>
 
