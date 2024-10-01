@@ -1,5 +1,5 @@
 <?php
-class headings{
+class heading{
     public function main_banner(){
         ?>
         <div>
