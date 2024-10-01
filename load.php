@@ -34,6 +34,7 @@ spl_autoload_register('classAutoLoad');
 
     $ObjAuth = new auth();
     $ObjAuth->signup($conn, $ObjGlob);
+    ?>
 
 <!-- <php
 function classAutoLoad($classname){
