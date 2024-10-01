@@ -7,13 +7,6 @@
 </head>
 <body>
 
-
-    
-    <!-- php 
-    require_once "load.php";
-    print $obj-> user_age("Alex", 2004); 
-     -->
-
     <?php
         require "load.php";
         $ObjLayouts->__heading();
@@ -25,4 +18,5 @@
     ?>
 
 </body>
-</html
+</html>
+
