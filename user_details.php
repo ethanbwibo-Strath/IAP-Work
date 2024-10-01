@@ -16,5 +16,4 @@ class user_details{
         return $fname . " is " . $age;
     }
 }
-
 ?>
