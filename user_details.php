@@ -1,5 +1,4 @@
 <?php
-
 class user_details{
 
     var $fname;
