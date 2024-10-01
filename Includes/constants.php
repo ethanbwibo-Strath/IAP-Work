@@ -1,7 +1,7 @@
 <?php
 
 //Creating Constants
-define('DB_NAME', 'PDO');
+define('DBTYPE', 'PDO');
 define('HOSTNAME', 'localhost');
 define('USERNAME', 'root');
 define('DBPORT', '3307');
