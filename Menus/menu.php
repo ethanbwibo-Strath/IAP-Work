@@ -1,5 +1,5 @@
 <?php
-class menus{
+class menu{
     public function main_menu(){
         ?>
 

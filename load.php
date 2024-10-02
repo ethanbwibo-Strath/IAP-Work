@@ -27,7 +27,7 @@ spl_autoload_register('classAutoLoad');
     $ObjHeadings = new heading();
     $ObjCont = new content();
     $ObjForm = new user_forms();
-    $conn = new dbConnection(DBTYPE, HOSTNAME, DBPORT, HOSTUSER, HOSTPASS, DBNAME);
+    $conn = new dbConnection(DBTYPE, HOSTNAME, DBPORT, USERNAME, DBPASS, DBNAME);
 
 
 // Create process instances
