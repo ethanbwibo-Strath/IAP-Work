@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Theme Toggle Example</title>
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   <style>
+       body[data-theme="light"] {
+           --bg-color: white;
+           --text-color: black;
+       }
+
+       body[data-theme="dark"] {
+           --bg-color: black;
+           --text-color: white;
+       }
+
+       body {
+           background-color: var(--bg-color);
+           color: var(--text-color);
+       }
+   </style>
+</head>
+<body data-theme="light">
+   <div class="container">
+       <h1>Theme Toggle Example</h1>
+       <button id="theme-toggle" class="btn btn-primary">Toggle Theme</button>
+   </div>
+
+   <script>
+       const themeToggleBtn = document.getElementById('theme-toggle');
+       const body = document.body;
+
+       themeToggleBtn.addEventListener('click', function () {
+           const currentTheme = body.getAttribute('data-theme');
+           const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+           body.setAttribute('data-theme', newTheme);
+       });
+   </script>
+</body>
+</html>
