@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write("Hello")
+    </script>
+    <br>
+    <p id = "ics"></p>
+
+    <script>
+        document.getElementById('ics').innerHTML = 'This is my first JS';
+    </script>
+
+
+<button onclick="document.getElementById('MyImg').src = 'Images/Bulb_on.png'">Turn ON</button>
+<img id="MyImg" src="Images/Bulb_off.png">
+<button onclick="document.getElementById('MyImg').src = 'Images/Bulb_off.png'">Turn OFF</button>
+
+<script>
+    window.alert("Connection Failed! 🫵😭");
+</script>
+<br>
+<a href="#" onclick = "return confirm('Are you sure??');">Google</a>
+
+
+<span id="ics_D" onclick="MyScript(5,5);">Show</span>
+<br>
+
+
+<script src = "JS/script.js"></script>
+
+<script>
+    var age = 20;
+    let lastname = "Bwibo";
+    const db_name = "ics_d";
+
+    document.write('I am ' + lastname +' aged ' + age + ' and ' );
+    if(age<18){
+        document.write("I am a Minor")
+    }else{
+        document.write("I am an Adult")
+    }
+
+
+</script>
+
+</body>
+</html>
